@@ -63,4 +63,11 @@ enabled=1
 baseurl='http://enterprise.delivery.puppetlabs.net/<%=@pe_ver%>/repos/<%=@dist%>-<%=@release%>-<%=@arch%>/'
 skip_if_unavailable=1
 proxy=_none_
+
+[pl-build-tools-<%=@dist%>-<%=@release%>-<%=@arch%>]
+name=pl-build-tools-<%=@dist%>-<%=@release%>-<%=@arch%>
+enabled=1
+baseurl='http://pl-build-tools.delivery.puppetlabs.net/yum/<%=@dist%>/<%=@release%>/<%=@arch%>/'
+skip_if_unavailable=1
+proxy=_none_
 """
